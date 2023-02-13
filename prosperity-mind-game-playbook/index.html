@@ -250,17 +250,24 @@ html { scroll-behavior: smooth }
 						<div class="vstack gap-4">
 							<div>Unlock Your Abundance with the <b>Prosperity Mind Game Playbook</b>! This printed guide is your key to unlocking the secrets of abundance and prosperity, as taught by <b>Law of Attraction</b> and Abraham Hicks. With step-by-step instructions and fun and engaging exercises, you'll learn how to attract more wealth and success into your life. So why wait? Get your copy today and start playing your way to a <b>life of abundance and prosperity</b>!</div>
 							<div>
-								<ul class="nav nav-tabs">
-									<li class="nav-item">
-										<a class="nav-link active" aria-current="page" href="#">21-Day</a>
+
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item" role="presentation">
+										<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">42-Day</a>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">365-Day</a>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
 									</li>
 								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+									<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+									<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
